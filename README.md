@@ -1,5 +1,5 @@
 # JS_Training
-<h1>what is atomic design</h1>
+<h1>What is Atomic Design</h1>
 Atomic design is methodology for creating  more coherent, hierarchical, and thoughtful interface design systems. There are five distinct levels in atomic design:
 
 1.Atoms<br>
@@ -33,7 +33,7 @@ It contains all the information that is specific to the user requirements.
 The 12-factor app (sometimes referred to as the 12-factor web app or the 12-factor best practice) is a collection of principles and best practices for creating web applications, which are now more commonly referred to as SAAS (software-as-a-service) applications.
 
 <h2>1.Codebase</h2>
-Keep a single code base under version control, but deploy it to multiple environments. This ensures consistency and minimizes differences between development and production..
+Keep a single code base under version control, but deploy it to multiple environments. This ensures consistency and minimizes differences between development and production.
 
 <h2>2.Dependencies</h2>
 Explicit declaration and isolation of dependencies (libraries, packages, etc.).
@@ -65,7 +65,7 @@ Maximize robustness with fast startup and graceful shutdown. Make your app dispo
 Keep development, staging, and production environments as similar as possible. Avoid surprises during deployment.
 
 <h2>11.Logs</h2> 
-Logs are very important to understand the inner workings of an application and can be of different levels and are usually stored in a file called "logFile". Ideally, our 12-factor application should not worry about logging. Every time a request comes into the system, response logs are created and processed as a series of events that can be used to debug if a problem occurs..
+Logs are very important to understand the inner workings of an application and can be of different levels and are usually stored in a file called "logFile". Ideally, our 12-factor application should not worry about logging. Every time a request comes into the system, response logs are created and processed as a series of events that can be used to debug if a problem occurs.
 
 <h2>12.Admin Processes</h2>
 Run admin or management tasks as one-off processes. These tasks should not impact the main application.
