@@ -9,7 +9,7 @@ Atomic design is methodology for creating  more coherent, hierarchical, and thou
 5.Pages<br>
 
 
-<h2>atoms</h2>
+<h2>Atoms</h2>
 Atoms are the basic building blocks of matter. Applied to web interfaces, atoms are our HTML tags, such as a form label, an input or a button.
 
 <h2>Molecules</h2>
