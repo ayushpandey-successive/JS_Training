@@ -1,13 +1,23 @@
 //13. Write a program to return inverse of an array
 
-const inverse=(arr)=>{
-    for(let i=0;i<=arr.length/2;i++)
-    {
-        let temp=arr[i];
-        arr[i]=arr[arr.length-i-1];
-        arr[arr.length-i-1]=temp;
-    }
-    return arr;
-}
+const arr = [3, 4, 2, 0, 1];
+const inverseArr = new Array(arr.length);
 
-console.log(inverse([1, 2, 3, 4, 5, 6, 7, 8, 9,11,34,56,23,54]));
+const makeInverseArray = (arr) => {
+  for (i in arr) {
+    inverseArr[arr[i]] = i;
+  }
+};
+
+const checkInverse = (arr, inverseArr) => {
+  for (i in arr) {
+    if (arr[i] != inverseArr[i]) {
+      console.log("The array inverse is not possible");
+      return false;
+    }
+  }
+  return true;
+};
+
+makeInverseArray(arr);
+console.log(inverseArr);
