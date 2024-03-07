@@ -1,5 +1,6 @@
-let username=promt("Enter name")
-let age=promt("Enter age")
-let phonenumber=promt("Enter phonenumber")
+// Write a function to take input(age, name, phone no.) from user and display it
+let username="Ayush Pandey"
+let age=21
+let phonenumber=9569452277
 
 console.log(`name: ${username}, age: ${age}, phonenumber: ${phonenumber}`)
