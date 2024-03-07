@@ -1,5 +1,5 @@
-let username=promt("Enter name")
-let age=promt("Enter age")
-let phonenumber=promt("Enter phonenumber")
+let username="Ayush Pandey"
+let age=21
+let phonenumber=9569452271
 
 console.log(`name: ${username}, age: ${age}, phonenumber: ${phonenumber}`)
