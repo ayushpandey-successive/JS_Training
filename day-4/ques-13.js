@@ -1,4 +1,4 @@
-//13. Write a program to return inverse of an array
+//1Problem Statement: Write a program to return inverse of an array
 
 const arr = [3, 4, 2, 0, 1];
 const inverseArr = new Array(arr.length);
