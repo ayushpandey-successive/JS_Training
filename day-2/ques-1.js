@@ -1,4 +1,4 @@
-//Print random number between 1 to 10
+//Problem Statement: Print random number between 1 to 10
 
-let randomnumber=()=> Math.ceil(Math.random()*10);
-console.log(randomnumber())
+const randomNumber = () => Math.ceil(Math.random() * 10);
+console.log(randomNumber());
