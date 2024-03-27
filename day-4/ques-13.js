@@ -1,5 +1,5 @@
-//13. Write a program to return inverse of an array
-
+//1Problem Statement: Write a program to return inverse of an array
+//
 const arr = [3, 4, 2, 0, 1];
 const inverseArr = new Array(arr.length);
 
@@ -19,5 +19,8 @@ const checkInverse = (arr, inverseArr) => {
   return true;
 };
 
-makeInverseArray(arr);
+if(makeInverseArray(arr));
+{
+  console.log("The array is reversible");
+}
 console.log(inverseArr);
