@@ -1,5 +1,5 @@
 # JS_Training
-<h1>what is atomic design</h1>
+<h1>What is Atomic Design</h1>
 Atomic design is methodology for creating  more coherent, hierarchical, and thoughtful interface design systems. There are five distinct levels in atomic design:
 
 1.Atoms<br>

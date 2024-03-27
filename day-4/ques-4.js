@@ -1,12 +1,12 @@
-// Write a program to convert given string to upperCase OR lowerCase
+//Problem Statement:  Write a program to convert given string to upperCase OR lowerCase
 
-const toupper=(s)=>{
-    return s.toUpperCase();
-}
+const toUpper = (s) => {
+  return s.toUpperCase();
+};
 
-const tolower=(s)=>{
-    return s.toLowerCase();
-}
+const toLower = (s) => {
+  return s.toLowerCase();
+};
 
-console.log(tolower("HELLO WORLD"));
-console.log(toupper("hello world"));
+console.log(toLower("HELLO WORLD"));
+console.log(toUpper("hello world"));
