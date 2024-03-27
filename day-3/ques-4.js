@@ -1,25 +1,19 @@
-//4. Write a program to print all even number first and then all odd numbers
+//Problem Statement:rite a program to print all even number first and then all odd numbers
 
-
-const evenodd=(n)=>{
-    let evenarr=[];
-    let oddarr=[];
-    for(let i = 1; i <n+1;i++)
-    {
-        if(i%2==0)
-        {
-            evenarr.push(i);
-        }
+const evenOdd = (n) => {
+  const evenArr = [];
+  const oddArr = [];
+  for (let i = 1; i < n + 1; i++) {
+    if (i % 2 == 0) {
+      evenArr.push(i);
     }
-    for(let i = 1; i <n+1;i++)
-    {
-        if(i%2!=0)
-        {
-            oddarr.push(i);
-        }
+    if (i % 2 != 0) {
+      oddArr.push(i);
     }
-    console.log(evenarr);
-    console.log(oddarr);
-}
+  }
 
-evenodd(100);
+  console.log(evenArr);
+  console.log(oddArr);
+};
+
+evenOdd(100);
