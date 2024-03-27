@@ -5,13 +5,16 @@ class Shape {
     this.width = width;
     this.height = height;
   }
+  getArea() {
+    return this.width * this.height;
+  }
 }
 class Rectangle extends Shape {
   constructor(width, height) {
     super(width, height);
   }
   getArea() {
-    return this.width * this.height;
+    return super.getArea();
   }
 }
 
@@ -20,7 +23,7 @@ class Triangle extends Shape {
     super(width, height);
   }
   getArea() {
-    return (this.width * this.height) / 2;
+    return super.getArea() / 2;
   }
 }
 
