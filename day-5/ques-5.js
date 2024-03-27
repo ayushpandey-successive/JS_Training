@@ -5,7 +5,7 @@
 //  };
 //  Output: { 'a': 1, 'b.c': 2, 'b.d.0': 3, 'b.d.1': 4 }
 
-const obj = {
+const obj2 = {
   a: 1,
   b: { c: 2, d: [3, 4] },
 };
@@ -14,13 +14,22 @@ const flattenedObj = {};
 const flatten = (obj, prefix = "") => {
   for (key in obj) {
     if (typeof obj[key] === "object") {
-      flatten(obj[key], prefix + "." + key);
+      if (prefix === "") {
+        flatten(obj[key], key);
+      } else {
+        flatten(obj[key], prefix + "." + key);
+      }
     } else {
-      let prefixKey = prefix + "." + key;
+      let prefixKey;
+      if (prefix === "") {
+        prefixKey = key;
+      } else {
+        prefixKey = prefix + "." + key;
+      }
+
       flattenedObj[prefixKey] = obj[key];
     }
   }
   return flattenedObj;
 };
-
-console.log(flatten(obj));
+console.log(flatten(obj2));
