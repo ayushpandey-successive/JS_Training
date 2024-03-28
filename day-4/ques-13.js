@@ -7,19 +7,21 @@ const makeInverseArray = (arr) => {
   for (i in arr) {
     inverseArr[arr[i]] = i;
   }
+  return checkInverse(arr,inverseArr);
 };
 
 const checkInverse = (arr, inverseArr) => {
   for (i in arr) {
     if (arr[i] != inverseArr[i]) {
-      console.log("The array inverse is not possible");
+      console.log("The array is not inversible ");
       return false;
     }
   }
   return true;
 };
 
-if(makeInverseArray(arr));
+
+if(makeInverseArray(arr))
 {
   console.log("The array is reversible");
 }
